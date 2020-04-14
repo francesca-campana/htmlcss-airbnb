@@ -1,0 +1,62 @@
+/* Regole Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fine Regole Reset */
+
+/* Page Wrapper */
+
+.wrapper .container {
+
+
+
+
+}
+
+/* Fine Page Wrapper */
+
+
+/* Container */
+.container {
+  background-image: url(../img/milano.jpg);
+  width: 30%;
+  height: 30vh;
+  background-size: cover;
+  position: relative;
+  margin: 10px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+
+
+}
+
+.napoli {
+  background-image: url(../img/napoli.jpg);
+
+}
+
+.roma {
+  background-image: url(../img/roma.jpg);
+}
+
+.container .filter {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.container .text {
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* Fine Container */
