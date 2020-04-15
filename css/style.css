@@ -10,11 +10,9 @@
 
 /* Page Wrapper */
 
-.wrapper .container {
-
-
-
-
+.wrapper {
+  width: 100%;
+  margin: auto;
 }
 
 /* Fine Page Wrapper */
@@ -23,14 +21,12 @@
 /* Container */
 .container {
   background-image: url(../img/milano.jpg);
-  width: 30%;
-  height: 30vh;
+  /* width: 100%; */
+  height: 100vh;
   background-size: cover;
   position: relative;
   margin: 10px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-
-
 }
 
 .napoli {
@@ -48,8 +44,8 @@
   height: 100%;
 }
 
-.container .text {
-  font-size: 20px;
+.container .text h1{
+  font-size: 35px;
   color: white;
   text-shadow: 2px 2px 4px #000000;
   position: absolute;
@@ -57,6 +53,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
+}
+
+.container:last-child {
+  margin-bottom: 10px;
 }
 
 /* Fine Container */
